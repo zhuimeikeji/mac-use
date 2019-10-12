@@ -5,11 +5,23 @@
 码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
 无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
 
-#### 软件架构
-软件架构说明
+#### Mac终端添加ll等命令 =========================
 
+打开终端编辑~/.bash_profile
 
-#### 安装教程
+        vim ~/.bash_profile
+
+在最后面加上以下代码保存
+
+        alias ll='ls -alF'
+        alias la='ls -A'
+        alias l='ls -CF'
+
+最后在终端输入,回车
+
+        source .bash_profile
+
+#### 安装教程 =========================
 
 1. xxxx
 2. xxxx
